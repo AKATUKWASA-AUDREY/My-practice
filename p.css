@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color:rgb(128, 133, 124)
+}
+img .thumb{
+    display: block;
+}
+.card{
+    border: 5px solid yellow;
+    border-radius: 8px;
+}
+#gallery{
+    max-width: fit-content;align-self: center;
+}
+.card .title{
+    text-align: center;
+    color: brown;
+}
+.card > .desc{ 
+    box-shadow: 5px;
+} 
+.thumb + .title{
+    color: aqua;
+}
